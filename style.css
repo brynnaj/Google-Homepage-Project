@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000000DE;
+    cursor: pointer;
+  }
+  
+  .rightlinks{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    margin-right: 10px;
+    
+  }
+  
+    .leftlinks{
+    list-style: none;
+    display: inline-flex;
+    float: left;
+    margin-left: 10px;
+  }
+  li {
+    margin: 5px;
+    
+  }
+  
+  main {
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .logo {
+    width: 25%;
+    height: 25%;
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: center;
+  }
+  
+  .searchBar {
+  width:40% ;
+  height: 40px;
+  border-radius: 20px;
+  
+  }
+  .buttons {
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+  
+    }
+  
+  .buttonone {
+    border:none;
+    background-color: #f8f9fa;
+    padding:10px;
+    border-radius: 5px;
+    margin-inline: 7px;
+  }
+  
+  .buttontwo {
+    border:none;
+    background-color: #f8f9fa;
+    padding:10px;
+    border-radius: 5px;
+  }
+  
+  
+  footer {
+    background-color: #efecec;
+    background-size: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+  }
+  
+  footer a {
+    color: #70757a;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .leftfooter {
+    list-style: none;
+    display: inline-flex;
+    float: left;
+    margin-left: auto;
+  
+    }
+  
+  .rightfooter {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    margin-right: auto;
+  }
